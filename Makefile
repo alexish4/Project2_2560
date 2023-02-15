@@ -1,2 +1,2 @@
 clean:
-		rm -rf *exe *.o *~ *.mod *.out
+		rm -rf *exe *.o *~ *.mod *.out *.txt

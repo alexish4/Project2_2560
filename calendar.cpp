@@ -40,7 +40,7 @@ int main() {
 	ofstream calendarFile;
 	calendarFile.open(fileName);
 
-	if(!calendarFile)
+	if(!calendarFile) //if file doesn't exist creat a new one
 		return 1;
 
 	calendarFile << monthName<< "•" << year << endl;
