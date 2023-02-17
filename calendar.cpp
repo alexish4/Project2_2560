@@ -7,6 +7,9 @@ enum day { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday };
 int main() {
 	int month;
 	int year;
+	int dayOfTheWeek;
+
+	cout << Sunday << " is sunday" << endl;
 
 	cout << "Calendar by A. Hernandez" << endl;
 	cout << endl;
@@ -57,7 +60,7 @@ int main() {
 	}
 	else if(month == 12)
 		monthName = "December";
-		
+
 	string fileName = to_string(month) + "-" + to_string(year) + ".txt";
 	ofstream calendarFile;
 	calendarFile.open(fileName);
